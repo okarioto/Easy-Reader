@@ -2,16 +2,6 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const openlink = () => {
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Learn React
-    </a>;
-  };
   return (
     <div className="App">
       <header className="App-header">
@@ -35,6 +25,14 @@ function App() {
         >
           click
         </button>
+        <label for="font-type">Font:</label>
+
+        <select name="font-type" id="font-type">
+          <option value="font1">arial</option>
+          <option value="font2">calibri</option>
+          <option value="font3">helvitica</option>
+          <option value="font4">times</option>
+        </select>
       </header>
     </div>
   );
