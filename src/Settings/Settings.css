@@ -1,15 +1,24 @@
 .settings {
- margin-top: 20px;
+ margin-top: 30px;
  display: flex;
- justify-content: space-between;
+ justify-content: space-evenly;
  align-items: center;
+ height: 20vh;
+ max-width: 50vw;
+ margin: auto;
+ transition: 0.3s;
 }
 
 .settings:hover {
- background: white;
+ background-color: white;
  .fontType {
-   color: var(--mainColor);
+  color: #093145;
  }
+}
+
+.fontDrop {
+ width: 70px;
+ height: 60px;
 }
 
 .fontType {
@@ -19,11 +28,12 @@
  text-transform: capitalize;
  margin-right: 20px;
  padding-left: 20px;
+ color: #ffd4db;
 }
 
 .SettingsXLogo {
- width: 30px;
- height: 30px;
+ width: 40px;
+ height: 40px;
  padding-right: 20px;
  transition: filter 0.3s ease-in-out;
 }

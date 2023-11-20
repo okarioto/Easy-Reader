@@ -20,7 +20,7 @@ const App = () => {
         <OnButton />
         
         {/* start of readability */}
-        <Readability />
+        {/* <Readability /> */}
 
         {/* <Link to="/settings">settings</Link> */}
 
