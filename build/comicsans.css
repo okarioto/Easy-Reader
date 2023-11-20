@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
 
 html * {
@@ -8,4 +9,5 @@ font-family: 'Comic Neue', cursive;
 }
 html span {
 font-family: 'Comic Neue', cursive;
+}
 }
