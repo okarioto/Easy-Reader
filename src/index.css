@@ -1,12 +1,17 @@
+* {
+  border-radius: 20px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: var(--font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 300px;
+  min-width: 600px;
   min-height: 300px;
+  background: var(--mainColor);
+  letter-spacing: var(--letterSpace);
+  text-align: center;
 }
 
 code {
