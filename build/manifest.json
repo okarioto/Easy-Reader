@@ -4,8 +4,11 @@
   "description": "test ext",
   "version": "1.0.0",
   "action": {
+    "default_icon": {
+      "16": "logo192.png"
+    },
     "default_popup": "index.html",
     "default_title": "open"
   },
-  "permissions": ["scripting"]
+  "permissions": ["scripting", "activeTab"]
 }
