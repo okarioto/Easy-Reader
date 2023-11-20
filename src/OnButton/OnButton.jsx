@@ -1,16 +1,19 @@
 import React from "react";
 import { ReactDOM } from "react";
 import "./OnButton.css";
-import handleChangerClick from "../Settings/Settings";
+import { Link } from "react-router-dom";
 
 const OnButton = () => {
-  return (
-    <div className="onButton">
-      <p className="onButtonText">on</p>
-      <label class="switch">
-        <input type="checkbox" />
-        <span class="slider" onClick={handleChangerClick}></span>
-      </label>
+
+ return (
+  <div className="onButton">
+    <Link className="startLink" to="/settings">
+     <div className="startBtn">
+      <p className="startBtntext">
+       start
+      </p>
+     </div>
+     </Link>
     </div>
   );
 };

@@ -1,10 +1,17 @@
 /* header */
 .homeHeader {
  margin-top: -30px;
+ text-align: center;
  display: flex;
  justify-content: space-between;
  align-items: center;
+ padding: 20px;
 }
+
+.title {
+ padding-left: 20px;
+}
+ 
 
 .title {
  font-size: 60px;
@@ -17,16 +24,4 @@
 .homeLogo {
  width: var(--headerImgDim);
  height: var(--headerImgDim);
- padding-left: 20px;
-}
-
-.homeSettingsLogo {
- width: 30px;
- height: 30px;
- padding-right: 20px;
- transition: filter 0.3s ease-in-out;
-}
-
-.homeSettingsLogo:hover {
- filter: invert(70%)
 }
