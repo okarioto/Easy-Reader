@@ -3,9 +3,9 @@
   "name": "Easy Reader",
   "description": "EasyReader improves the user experience for individuals with dyslexia by making web pages more accessible. EasyReader is a Chrome extension that allows users to choose from a series of dyslexic friendly typeface that suits their personal reading needs. EasyReader represents a fusion of empathy, technological innovation, and a commitment to accessibility and inclusion.",
   "icon": {
-    "16": "./images/HackCamp-project-logo.png",
-    "48": "./images/settingsT.png",
-    "128": "./images/Transparent_X.png"
+    "16": "./images/HackCamp-project-logo-16.pngg",
+    "48": "./images/HackCamp-project-logo-48.png",
+    "128": "./images/HackCamp-project-logo-128.png"
   },
   "version": "1.0.0",
   "action": {
