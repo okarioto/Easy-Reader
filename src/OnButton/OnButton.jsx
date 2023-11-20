@@ -15,7 +15,7 @@ const OnButton = () => {
      </div>
      </Link>
     </div>
- )
-}
+  );
+};
 
 export default OnButton;
