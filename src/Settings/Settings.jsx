@@ -7,7 +7,8 @@ const Settings = () => {
   /*eslint-disable no-undef */
   // const [selectedFont, setSelectedFont] = useState("");
 
-  const [selectedFont, setSelectedFont] = useState(0);
+  const [selectedFont, setSelectedFont] = useState("");
+  const [selectedSpace, setSelectedSpace] = useState(0);
 
   const handleFontChange = (event) => {
     // Get the selected font value from the dropdown
@@ -65,6 +66,21 @@ const Settings = () => {
     }
   };
 
+  const handleLetterSpacingChange = async(event) => {
+    const space = event.target.value;
+    setSelectedSpace(space);
+      const [tab] = await chrome.tabs.query({
+      active: true,
+      currentWindow: true,
+    });
+    chrome.scripting.executeScript({
+      target: {
+        tabId: tab.id,
+      },
+      function: () => document.body.style.letterSpacing(selectedSpace),
+    });
+  };
+
   return (
     <div className="settings">
       {/* start of dropdown menu */}
@@ -91,6 +107,7 @@ const Settings = () => {
         </select>
       </div>
       <button onClick={handleChangerClick}>click</button>
+      <input type="number" onChange={handleLetterSpacingChange} />
       <p>{selectedFont}</p>
       {/* x to go back to home page */}
       <Link to="/">
