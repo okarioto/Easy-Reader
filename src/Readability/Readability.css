@@ -1,0 +1,39 @@
+.readability {
+ margin-top: -15px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* background-color: var(--secondarColor); */
+ height: 25vh;
+ border: 1px solid transparent;
+ border-radius: 20px;
+ transition: 0.3s;
+}
+
+.readability:hover {
+ background: white;
+ .readabilityText {
+   color: var(--mainColor);
+ }
+}
+
+.readabilityText {
+ font-size: 40px;
+ color: var(--textColor);
+ padding-left: 20px;
+ text-transform: capitalize;
+}
+
+.countBox {
+ background-color: #ccc;
+ border-radius: 20px;
+ height: 20px;
+ width: 40px;
+ padding: auto 5px;
+}
+
+.readabilityCount {
+ font-size: 10px;
+ color: var(--mainColor);
+ margin-bottom: auto;
+}
