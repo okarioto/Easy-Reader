@@ -20,9 +20,6 @@ const App = () => {
         {/* start of on button */}
         <OnButton />
 
-        {/* start of readability */}
-        <Readability />
-
         {/* <Link to="/settings">settings</Link> */}
 
         <Routes>

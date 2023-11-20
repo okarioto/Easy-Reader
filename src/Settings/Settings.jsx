@@ -53,6 +53,13 @@ const Settings = () => {
         target: {
           tabId: tab.id,
         },
+        files: ["lexend.css"],
+      });
+    } else if (selectedFont === "5") {
+      chrome.scripting.insertCSS({
+        target: {
+          tabId: tab.id,
+        },
         files: ["opensans.css"],
       });
     }
@@ -76,7 +83,7 @@ const Settings = () => {
             verdana
           </option>
           <option value="4" className="fontName">
-            tahoma
+            Lexend
           </option>
           <option value="5" className="fontName">
             open sans
