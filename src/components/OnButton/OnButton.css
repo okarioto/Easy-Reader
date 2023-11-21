@@ -1,17 +1,16 @@
 .startLink {
  text-decoration: none;
- color: var(--secondarColor);
  transition: .3s;
 }
 
 .onButton {
  margin: auto;
- margin-top: 50px;
- height: 35vh;
+ margin-top: 0px;
+ height: 30vh;
 }
 
 .startBtn {
- height: 140px;
+ height: 120px;
  width: 200px;
  margin: auto;
  display: inline-block;
@@ -28,8 +27,12 @@
 
 .startBtntext {
  text-align: center;
- font-size: 50px;
- text-transform: uppercase;
+ font-size: 40px;
+ text-transform: capitalize;
+ background-image: linear-gradient(to right, #fca5a5, #fef2f2); /* Example gradient colors */
+ -webkit-background-clip: text; /* For Safari/Chrome */
+ background-clip: text;
+ color: transparent; /* Hide the actual text */
 }
 
 

@@ -7,18 +7,18 @@
  align-items: center;
  padding: 20px;
 }
-
-.title {
- padding-left: 20px;
-}
  
 
 .title {
+ padding-left: 20px;
  font-size: 60px;
- color: #ffd4db;
  font-weight: bold;
  text-transform: capitalize;
  margin-right: 20px;
+ background-image: linear-gradient(to right, #fca5a5, #fef2f2); /* Example gradient colors */
+ -webkit-background-clip: text; /* For Safari/Chrome */
+ background-clip: text;
+ color: transparent; /* Hide the actual text */
 }
 
 .homeLogo {

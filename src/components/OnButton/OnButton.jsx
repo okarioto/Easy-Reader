@@ -10,7 +10,7 @@ const OnButton = () => {
     <Link className="startLink" to="/settings">
      <div className="startBtn">
       <p className="startBtntext">
-       start
+       begin
       </p>
      </div>
      </Link>

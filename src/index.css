@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-width: 600px;
   min-height: 300px;
-  background: var(--mainColor);
+  background-image: linear-gradient(to right, #0f172a, #64748b);
   letter-spacing: var(--letterSpace);
   text-align: center;
 }

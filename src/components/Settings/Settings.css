@@ -29,7 +29,10 @@
  text-transform: capitalize;
  margin-right: 20px;
  padding-left: 20px;
- color: #ffd4db;
+ background-image: linear-gradient(to right, #fca5a5, #fef2f2); /* Example gradient colors */
+ -webkit-background-clip: text; /* For Safari/Chrome */
+ background-clip: text;
+ color: transparent; /* Hide the actual text */
 }
 
 .SettingsXLogo {

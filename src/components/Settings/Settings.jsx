@@ -1,8 +1,7 @@
 import React,{ useState }  from "react";
 import "./Settings.css";
-import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import App from "../App";
+import App from "../../App";
 
 const Settings = () => {
    /*eslint-disable no-undef */
@@ -68,7 +67,7 @@ const Settings = () => {
     <label for="font-type" className="fontTypeC">Font:</label>
     <select name="font-type" id="fontDrop" onChange={handleFontChange}>
      <option value="1" className="fontName">arial</option>
-     <option value="2" className="fontName">comic sans</option>
+     <option value="2" className="fontName">cursive</option>
      <option value="3" className="fontName">verdana</option>
      <option value="4" className="fontName">tahoma</option>
      <option value="5" className="fontName">open sans</option>
