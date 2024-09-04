@@ -2,69 +2,33 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Details
 
-In the project directory, you can run:
+## Inspiration 💡
+Inspired by our personal connections to dyslexia, having family members who face its challenges, we built a Chrome extension that changes fonts on webpages to dyslexic-friendly ones. This project stems from our desire to make online content more accessible for individuals who can benefit from improved readability. By creating this tool, we hope to contribute to a more inclusive web experience, making it easier for those with dyslexia to access information and navigate the digital world with confidence.
 
-### `npm start`
+## What it does 🔍
+Easy-Reader provides a more inclusive web-browsing experience for individuals who face struggles in reading due to dyslexia. By allowing users to change the font on any webpage to ones curated to assist dyslexic reading, Easy-Reader fosters a more inclusive digital environment. Currently, we support arial, cursive, verdana, tahoma, and open sans. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How we built it 🦾
+**Brainstorming&Planning:** We started by outlining the project requirements, features, and data structure for the MVP. This helped in creating a roadmap for development and split the team into distinct roles: two people on the backend and and front end while out third member was working on the design and final presentation.
+**Development:** We implemented the project using Javascript, React.js and the Chrome API to inject our curated fonts in the css style sheet of webpages. The front end was built with HTML, CSS, and the React framework and focused specifically on simplicity and overal UI / UX.  
+**Integration&Testing:** Rigorous testing was performed to identify and resolve bugs. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Challenges we ran into 🧠
+One of the biggest struggles we encountered was navigating the Chrome API, as we were unfamiliar with many of its features. In addition, we also had trouble understanding how to properly interact with browser functions, manage permissions, and handle background scripts which required significant trial and error. Moreover, learning React for the first time added another layer of complexity. Integrating React with the Chrome extension posed challenges, particularly in managing the state and ensuring seamless communication between components and the extension's background processes. However, with persistent research, hands-on experimentation, and help from the mentors, we gradually became more proficient, ultimately leading to a functional and polished extension.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accomplishments that we're proud of 🌟
+* Learning the React framework from scratch, and implementing it through trial and error
+* Learning to use Figma
+* Successfully integrating the chrome API to add functionality to our project
+* Designing a front-end that adheres to our UI / UX goals
+## What we learned ✍️
+Building a functional MVP is better than coming up with a perfectly-designed, overly ambitious project that doesn't work!
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Easy-Reader ❓
+* Adding cross-browser support
+* Implement AI to intelligently identify and adjust specific sections of a webpage to optimize readability
+* Introduce a feature that lets users create profiles and save their preferences in the cloud
+* Translate the extension into multiple languages and adapt it for various cultural contexts
