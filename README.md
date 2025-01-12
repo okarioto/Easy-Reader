@@ -28,7 +28,6 @@ One of the biggest struggles we encountered was navigating the Chrome API, as we
 Building a functional MVP is better than coming up with a perfectly-designed, overly ambitious project that doesn't work!
 
 ## What's next for Easy-Reader ❓
-* Adding cross-browser support
 * Implement AI to intelligently identify and adjust specific sections of a webpage to optimize readability
 * Introduce a feature that lets users create profiles and save their preferences in the cloud
 * Translate the extension into multiple languages and adapt it for various cultural contexts
