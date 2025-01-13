@@ -20,6 +20,7 @@ One of the biggest struggles we encountered was navigating the Chrome API, as we
 
 
 ## Accomplishments that we're proud of 🌟
+* adding cross browser support
 * Learning the React framework from scratch, and implementing it through trial and error
 * Learning to use Figma
 * Successfully integrating the chrome API to add functionality to our project
