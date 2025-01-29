@@ -12,7 +12,7 @@ Easy-Reader provides a more inclusive web-browsing experience for individuals wh
 
 ## How we built it 🦾
 **Brainstorming&Planning:** We started by outlining the project requirements, features, and data structure for the MVP. This helped in creating a roadmap for development and split the team into distinct roles: two people on the backend and and front end while out third member was working on the design and final presentation.
-**Development:** We implemented the project using Javascript, React.js and the Chrome API to inject our curated fonts in the css style sheet of webpages. The front end was built with HTML, CSS, and the React framework and focused specifically on simplicity and overal UI / UX.  
+**Development:** We implemented the project using Javascript, React.js and the Chrome API to inject our curated fonts in the css style sheet of webpages. The front end was built with HTML, CSS, and the React framework and focused specifically on simplicity and overal UI/UX.  
 **Integration&Testing:** Rigorous testing was performed to identify and resolve bugs. 
 
 ## Challenges we ran into 🧠
